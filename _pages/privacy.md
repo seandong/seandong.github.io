@@ -1,5 +1,11 @@
-**Privacy Policy**
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
+layout: page
+title: Privacy Policy
+permalink: /privacy
+---
 ZhengXuan Dong built the TripREC app as an Ad Supported app. This SERVICE is provided by ZhengXuan Dong at no cost and is intended for use as is.
 
 This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.

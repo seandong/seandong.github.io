@@ -1,3 +1,40 @@
+title: 𝑺𝑬𝑨𝑵 𝑫𝑶𝑵𝑮
+email: sindon@gmail.com
+author: "Sean Dong"
+description: >- # this means to ignore newlines until "baseurl:"
+  Exploring code and thoughts.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: seandong
+github_username:  seandong
+
+# Build settings
 theme: minima
-title: Sean's Homepage
-description: https://twitter.com/seandong
+# plugins:
+#   - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+header_pages:
+  - _pages/archive.md
+
+include:
+    - _pages
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - .ruby-version
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
