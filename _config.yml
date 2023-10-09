@@ -33,8 +33,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - .ruby-version
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - .gitignore
+  - docker-compose.yml
+  - Dockerfile
+  - LICENSE
+  - README.md
+
